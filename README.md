@@ -1,36 +1,56 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# CivAI DAO Assistant
+
+> AI-powered governance intelligence for collaborative communities
+
+Live Demo: https://civai-dao-assistant.vercel.app
+
+---
+
+## The Problem
+
+Governance proposals are often long, inconsistent, and difficult for communities to evaluate quickly. DAOs and collaborative teams waste time debating proposals without clear structure or decision guidance.
+
+## The Solution
+
+CivAI transforms raw proposal text into structured decision intelligence. Paste any governance document and get an instant analysis with a clear recommendation.
+
+## Features
+
+- Executive summary of any proposal
+- Key benefits extraction
+- Risk identification
+- Stakeholder impact analysis
+- Support / Neutral / Oppose recommendation with reasoning
+- Suggested next steps for implementation
+
+## Tech Stack
+
+- Next.js 16 + TypeScript
+- Tailwind CSS
+- Groq API (LLaMA 3.3 70B)
+- Vercel
 
 ## Getting Started
-
-First, run the development server:
-
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/timmyspurs12/civai-dao-assistant.git
+cd civai-dao-assistant
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Create `.env.local`:
+```
+GROQ_API_KEY=your_key_here
+```
+```bash
+npm run dev
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Open [localhost:3000](http://localhost:3000)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Why It Matters
 
-## Learn More
+As collaborative systems scale across Web3, digital rights, and frontier research ecosystems, governance tooling must become more legible, efficient, and participatory. CivAI is a coordination layer that helps communities make faster, better-informed decisions.
 
-To learn more about Next.js, take a look at the following resources:
+## Built For
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+PL_Genesis: Frontiers of Collaboration
